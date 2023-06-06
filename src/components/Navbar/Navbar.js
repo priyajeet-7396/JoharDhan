@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -14,7 +14,11 @@ import MenuItem from '@mui/material/MenuItem';
 import logoImage from '../../assets/Johar Dhan.svg';
 import logo from '../../assets/synergy-logo.png';
 
+/* eslint-disable no-unused-vars */
 const pages = ['Agenda', 'Outcome', 'Participants', 'Speakers'];
+/* eslint-enable no-unused-vars */
+
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
