@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,38 +12,28 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logoImage from '../../assets/Johar Dhan.svg';
 import logo from '../../assets/synergy-logo.png';
+import { Link } from 'react-router-dom'; 
 
-/* eslint-disable no-unused-vars */
 const pages = ['Agenda', 'Outcome', 'Participants', 'Speakers'];
-/* eslint-enable no-unused-vars */
-
-
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
 
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-
   return (
     <AppBar position="static" sx={{ bgcolor: 'white' }}>
-
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-       
           <Typography
             variant="h5"
             noWrap
-            component={Link}
-            to="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -56,7 +45,6 @@ function ResponsiveAppBar() {
             }}
           >
             Johar Dhan
-            
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -89,28 +77,32 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} component={Link} to={`/${page.toLowerCase()}`}>
+                <MenuItem
+                  key={page}
+                  onClick={handleCloseNavMenu}
+                  component={Link}
+                  to={`/${page.toLowerCase()}`}
+                >
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
+
           <Avatar
-  alt="Logo"
-  src={logoImage}
-  sx={{
-    display: { xs: 'flex', md: 'flex' },
-    width: 150,
-    height: 120,
-    marginRight: 1,
-  }}
-/>
+            alt="Logo"
+            src={logoImage}
+            sx={{
+              display: { xs: 'flex', md: 'flex' },
+              width: 150,
+              height: 120,
+              marginRight: 1,
+            }}
+          />
 
           <Typography
             variant="h5"
             noWrap
-            component={Link}
-            to="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'none' },
@@ -124,6 +116,7 @@ function ResponsiveAppBar() {
           >
             Johar Dhan
           </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
@@ -139,17 +132,16 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box>
-          <Avatar
-  alt="Logo"
-  src={logo}
-  sx={{
-    display: { xs: 'flex', md: 'flex' },
-    width: 100,
-    height: 100,
-    marginRight: 1,
-  }}
-/>
-          
+            <Avatar
+              alt="Logo"
+              src={logo}
+              sx={{
+                display: { xs: 'flex', md: 'flex' },
+                width: 100,
+                height: 100,
+                marginRight: 1,
+              }}
+            />
           </Box>
         </Toolbar>
       </Container>
