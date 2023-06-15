@@ -5,6 +5,7 @@ import Agenda from './pages/Agenda/Agenda';
 import Outcome from './pages/Outcome/Outcome';
 import Participants from './pages/Participants/Participants';
 import Speakers from './pages/Speakers/Speakers';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/participants" element={<Participants />} />
         <Route path="/speakers" element={<Speakers />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };

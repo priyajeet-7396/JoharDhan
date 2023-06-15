@@ -1,0 +1,12 @@
+.banner {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .banner-image {
+    width: 10%;
+    height: 10%;
+
+  }
+  

@@ -1,0 +1,45 @@
+.green-box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .green-box {
+    border: 2px solid green;
+    padding: 5px;
+    text-align: left;
+    width: 1300px;
+    transition: background-color 0.3s ease;
+  }
+
+
+  
+  .title {
+    text-align: center;
+    font-size:50px;
+    color: green;
+    margin: 10px;
+  }
+
+
+  
+  .paragraph {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .list{
+    font-size: 20px;
+  }
+  
+  .green-box:hover {
+    background-color: green;
+    border-radius: 20px;
+  }
+  
+  .green-box:hover .title,
+  .green-box:hover .paragraph,
+  .green-box:hover .list li {
+    color: white;
+  }

@@ -1,0 +1,65 @@
+/* background.css */
+
+.bg-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bg-title {
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    transition: font-size 0.3s;
+    color: green;
+    
+  }
+  
+  .bg-title:hover {
+
+    /* color: rgb(2, 188, 2); */
+    font-size: 65px;
+  }
+  
+  .bg-title::after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 2px;
+    background-color: rgb(255, 200, 0);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s, background-color 0.3s;
+  }
+  
+  .bg-title:hover::after {
+
+    width: 700px;
+  }
+  
+  .bg-paragraph {
+    text-align: left;
+    margin-left:  100px;
+    margin-right: 100px;
+    color: aliceblue;
+    
+  }
+
+/* background.css */
+
+.bg {
+    background: linear-gradient(to right, #004f00, #01b701);
+    padding: 10px;
+    border-radius: 100px;
+    max-width: 90%;
+    margin: 0 auto;
+    transition: transform 0.3s, border-radius 0.3s;
+  }
+  
+  .bg:hover {
+    border-radius: 30px; /* Adjust the border radius to make it less curved */
+    transition: transform 0.3s, border-radius 0.3s, background-color 0.3s; /* Add background-color to make the transition smoother */
+
+  }
+  
