@@ -34,6 +34,7 @@ function ResponsiveAppBar() {
   };
 
 
+
   return (
     <AppBar position="fixed" sx={{ bgcolor: 'white' }}>
 
@@ -103,8 +104,14 @@ function ResponsiveAppBar() {
     width: 150,
     height: 120,
     marginRight: 1,
+    cursor: 'pointer',
   }}
+  component="a" // Use the 'component' prop to render as an anchor tag
+  href="https://www.synergytechnofin.com/" // Set the external link URL
+  target="_blank" // Open the link in a new tab/window
+  rel="noopener noreferrer" // Security and performance attributes
 />
+
 
           <Typography
             variant="h5"
@@ -139,16 +146,19 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box>
-          <Avatar
-  alt="Logo"
-  src={logo}
-  sx={{
-    display: { xs: 'flex', md: 'flex' },
-    width: 100,
-    height: 100,
-    marginRight: 1,
-  }}
-/>
+          <a href="https://www.synergytechnofin.com/" target="_blank" rel="noopener noreferrer">
+            <Avatar
+              alt="Logo"
+              src={logo}
+              sx={{
+                display: { xs: 'flex', md: 'flex' },
+                width: 150,
+                height: 120,
+                marginRight: 1,
+                cursor: 'pointer',
+              }}
+            />
+          </a>
           
           </Box>
         </Toolbar>

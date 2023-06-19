@@ -1,0 +1,62 @@
+/* Date.css */
+
+.green-bordered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 70px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .green-bordered-container:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .component-heading {
+    text-align: center;
+    color: green;
+    margin-left: 18px;
+  }
+  
+  .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon-text.left {
+    justify-content: flex-start;
+
+  }
+  
+  .icon-text.right {
+    justify-content: flex-end;
+  }
+  
+  .icon-text span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .green-bordered-container:hover .component-heading,
+  .green-bordered-container:hover .icon-text span {
+    color: white;
+  }
+  
+  .green-bordered-container:hover .icon-text {
+    color: orange;
+  }

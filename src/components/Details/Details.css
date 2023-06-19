@@ -1,0 +1,51 @@
+
+  
+  .box-tea {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    width: 98.5%;
+    height: 50px;
+ 
+    margin-left: 10px;
+
+  }
+  
+  .icon-tea {
+    /* Add any additional styles for the icon if needed */
+    margin-right: 10px;
+    margin-left: 20px;
+    color: green;
+  }
+  
+  .text-tea {
+    color: white;
+  }
+  
+
+
+  
+  .box-lunch {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    width: 98.5%;
+    height: 50px;
+ 
+    margin-left: 10px;
+
+  }
+  
+  .icon-lunch {
+    /* Add any additional styles for the icon if needed */
+    margin-right: 10px;
+    margin-left: 20px;
+    color: green;
+  }
+  
+  .text-lunch {
+    color: rgb(255, 255, 255);
+  }
+.time-icon{
+    color: orange;
+}

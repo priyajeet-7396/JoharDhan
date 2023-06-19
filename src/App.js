@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ResponsiveAppBar from './components/Navbar/Navbar';
 import Agenda from './pages/Agenda/Agenda';
 import Outcome from './pages/Outcome/Outcome';

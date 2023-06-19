@@ -7,6 +7,10 @@ import {HiPresentationChartLine} from 'react-icons/hi';
 import {GiTeacher} from 'react-icons/gi';
 import {GiDiscussion} from 'react-icons/gi';
 import {HiUserGroup} from 'react-icons/hi';
+import Timeline from './Timeline/Timeline';
+import Date from '../../components/Date/Date';
+import Schedule from '../../components/Schedule/Schedule'
+
 
 const Agenda = () => {
 
@@ -28,6 +32,9 @@ const Agenda = () => {
 objectives mentioned above. These activities may include:"
         items={items}
     />
+    <Timeline/>
+    <Date/>
+    <Schedule/>
   
     </>
   )
