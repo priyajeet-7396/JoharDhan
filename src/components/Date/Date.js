@@ -3,18 +3,18 @@ import { MdWatchLater } from 'react-icons/md';
 import { BsFillCalendarCheckFill } from 'react-icons/bs';
 import './Date.css'; // Importing the CSS file
 
-const Date = () => {
+const Date = ({ time, heading , day}) => {
   return (
     <div className="green-bordered-container">
       <div className="info-section">
         <div className="icon-text">
           <MdWatchLater size={24} />
-          <span>10:30 AM to 04:30 PM </span>
+          <span>{time} </span>
         </div>
-        <h2 className="component-heading">Programme - Day-1</h2>
+        <h2 className="component-heading">{heading}</h2>
         <div className="icon-text">
           <BsFillCalendarCheckFill size={24} />
-          <span>Friday,14th July 2023</span>
+          <span> {day} </span>
         </div>
       </div>
     </div>
@@ -22,3 +22,27 @@ const Date = () => {
 };
 
 export default Date;
+
+
+
+
+// const Date = ({ time, heading, dateIcon, date }) => {
+//   return (
+//     <div className="green-bordered-container">
+//       <div className="info-section">
+//         <div className="icon-text">
+//         <MdWatchLater size={24} />
+//           <span>{time}</span>
+//         </div>
+//         <h2 className="component-heading">{heading}</h2>
+//         <div className="icon-text">
+//         <BsFillCalendarCheckFill size={24} />
+//           <span>{date}</span>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+
+// export default Date;

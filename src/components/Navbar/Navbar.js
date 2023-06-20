@@ -10,9 +10,10 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import logoImage from '../../assets/Johar Dhan.svg';
-import logo from '../../assets/synergy-logo.png';
+import logoImage22 from '../../assets/Johar Dhan.svg';
+import logo22 from '../../assets/synergy-logo.png';
 import {Link} from 'react-router-dom';
+import './Navbar.css';
 
 
 const pages = ['Agenda', 'Outcome', 'Participants', 'Speakers'];
@@ -98,7 +99,8 @@ function ResponsiveAppBar() {
           </Box>
           <Avatar
   alt="Logo"
-  src={logoImage}
+  src={logoImage22}
+  className="custom-avatar"
   sx={{
     display: { xs: 'flex', md: 'flex' },
     width: 150,
@@ -147,17 +149,18 @@ function ResponsiveAppBar() {
 
           <Box>
           <a href="https://www.synergytechnofin.com/" target="_blank" rel="noopener noreferrer">
-            <Avatar
-              alt="Logo"
-              src={logo}
-              sx={{
-                display: { xs: 'flex', md: 'flex' },
-                width: 150,
-                height: 120,
-                marginRight: 1,
-                cursor: 'pointer',
-              }}
-            />
+          <Avatar
+  alt="Logo"
+  src={logo22}
+  className="custom-avatar"
+  sx={{
+    display: { xs: 'flex', md: 'flex' },
+    width: 200, // Adjust the width value as desired
+    height: 160, // Adjust the height value as desired
+    marginRight: 1,
+    cursor: 'pointer',
+  }}
+/>
           </a>
           
           </Box>

@@ -1,0 +1,63 @@
+.box-container-Inaugral {
+    display: inline;
+   
+  }
+  
+  .box-Inaugral {
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    width: 90%;
+  }
+  
+  .box-header-Inaugral {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .time-icon-Inaugral {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .time-icon-Inaugral svg {
+    margin-right: 5px;
+    color: orange;
+  }
+  
+  .box-content-Inaugral {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-Inaugral {
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    
+  }
+  
+  .text-container-Inaugral {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .name-text-Inaugral {
+    font-weight: bold;
+  }
+  
+  .additional-text-Inaugral {
+    margin-top: 5px;
+  }
+
+  .additional-time-text-Inaugral {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  

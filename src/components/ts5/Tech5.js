@@ -1,30 +1,29 @@
 import React from 'react';
 import { FiClock } from 'react-icons/fi';
 import { Avatar } from '@material-ui/core';
-import './Tech1.css';
+import './Tech5.css';
  
 import pp from '../../assets/pp/pp.jpg'; 
 
 
-const Tech1 = () => {
+const Tech5 = () => {
   return (
     <div className="box-container-Inaugral">
       <div className="box-Inaugral">
         <div className="box-header-Inaugral">
-          <div className="additional-time-text-Inaugral">Agriculture production in Jharkhand- Challenges and opportunity</div>
+          <div className="additional-time-text-Inaugral"> Agricultural Marketing and Processing Opportunity in Jharkhand </div>
         </div>
         <div className="box-content-Inaugral">
           <div className="text-container-Inaugral">
             <div className="name-text-Inaugral"></div>
-            <div className="additional-text-Inaugral">Jharkhand, has a predominantly rural economy with agriculture being one of the key sectors. The state is blessed with fertile soil, abundant water resources, and a diverse agro-climatic condition. However, there are several challenges and opportunities in agriculture in Jharkhand.
+            <div className="additional-text-Inaugral"> Jharkhand offers significant opportunities for agricultural marketing and processing due to its abundant natural resources, favorable agro-climatic conditions, and government initiatives to promote agriculture and rural development. Jharkhand has a wide range of agricultural produce, including cereals, pulses, oilseeds, fruits, and vegetables. Setting up crop processing units such as rice mills, flour mills, oil extraction units, and fruit/vegetable processing units can add value to the produce and cater to both domestic and export markets. Developing nurseries, cold storage facilities, and processing units for flowers, fruits, and vegetables can tap into the growing demand.
+
 </div>
- <div className="additional-text-Inaugral">The major challenges are small and fragmented land holdings, irrigation infrastructure, lack of modern farming techniques, There is a need to promote mechanization, use of high-yielding crop varieties, improved irrigation techniques, and better farm management practices.
+ <div className="additional-text-Inaugral"> To leverage these opportunities effectively, it is essential to collaborate with the state government, agricultural research institutions, and industry associations. 
 </div>
- <div className="additional-text-Inaugral">Addressing the challenges in agriculture and leveraging the available opportunities can lead to sustainable agricultural development in Jharkhand. The silver linings for sustainable development of agriculture in Jharkhand lays in promotion of organic farming, horticulture and high-value crops, dairy and livestock, agro-processing and value addition, skill development and technology adoption.
+ <div className="additional-text-Inaugral"> This session will highlight the opportunities and discuss some successful models that have been of mutual interest to farmers and processors. The scope of replicating innovative practices would be discussed to generate a comprehensive understanding of possibilities value addition and marketing of agricultural produce.
 </div>
- <div className="additional-text-Inaugral">
-In this session, successful financial models will be discussed, with a focus on role of agri-inputs (seeds, fertilizer crop protection) and strategic lessons learned. The session will also discuss larger policy issues concerning, agricultural development in Jharkhand
-</div>
+
           </div>
         </div>
       </div>
@@ -32,17 +31,17 @@ In this session, successful financial models will be discussed, with a focus on 
         <div className="box-header-Inaugral">
           <div className="time-icon-Inaugral">
             <FiClock />
-            <span>12:00 PM – 12:10 PM</span>
+            <span>12:00 PM – 12:10 PM </span>
           </div>
-          <div className="additional-time-text-Inaugral"> Welcome & Introductory Remarks by Session Chair </div>
+          <div className="additional-time-text-Inaugral"> Welcome & Introductory Remarks by Session Chair  </div>
         </div>
         <div className="box-content-Inaugral">
           <div className="avatar-Inaugral">
           <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
           </div>
           <div className="text-container-Inaugral">
-            <div className="name-text-Inaugral"> Director Agriculture </div>
-            <div className="additional-text-Inaugral"> Govt. of Jharkhand </div>
+            <div className="name-text-Inaugral"> Representative </div>
+            <div className="additional-text-Inaugral"> (Agricultural Marketing Board-Jharkhand) </div>
           </div>
         </div>
       </div>
@@ -50,9 +49,10 @@ In this session, successful financial models will be discussed, with a focus on 
         <div className="box-header-Inaugral">
           <div className="time-icon-Inaugral">
             <FiClock />
-            <span> 12:10 PM – 12:50 PM  </span>
+            <span> 12:10 PM – 12:40 PM </span>
           </div>
-          <div className="additional-time-text-Inaugral">  Successful models : Role of agri-inputs and models for sustainable development of agriculture in Jharkhand </div>
+          <div className="additional-time-text-Inaugral"> 
+Government and private sector partner to strengthen agricultural marketing in Jharkhand. </div>
           
         </div>
         <div className="name-text-Inaugral">Panellists: (10 min each)</div>
@@ -61,8 +61,9 @@ In this session, successful financial models will be discussed, with a focus on 
           <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
           </div>
           <div className="text-container-Inaugral">
-            <div className="name-text-Inaugral">Dr. Onkar Nath Singh</div>
-            <div className="additional-text-Inaugral">VC – BAU Ranchi</div>
+            <div className="name-text-Inaugral"> Representative  </div>
+            <div className="additional-text-Inaugral"> (Processing-Mother Dairy) 
+</div>
           </div>
         </div>
         <div className="box-content-Inaugral">
@@ -70,32 +71,37 @@ In this session, successful financial models will be discussed, with a focus on 
           <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
           </div>
           <div className="text-container-Inaugral">
-            <div className="name-text-Inaugral">Representative </div>
-            <div className="additional-text-Inaugral"> (Crop protection) </div>
+            <div className="name-text-Inaugral"> Representative  </div>
+            <div className="additional-text-Inaugral"> (NAFED)
+ </div>
           </div>
-        </div> <div className="box-content-Inaugral">
+        </div> 
+        <div className="box-content-Inaugral">
           <div className="avatar-Inaugral">
           <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
           </div>
           <div className="text-container-Inaugral">
-            <div className="name-text-Inaugral">Representative </div>
-            <div className="additional-text-Inaugral">(Seed Company)</div>
-          </div>
-        </div> <div className="box-content-Inaugral">
-          <div className="avatar-Inaugral">
-          <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
-          </div>
-          <div className="text-container-Inaugral">
-            <div className="name-text-Inaugral">SSM Jharkhand</div>
-            <div className="additional-text-Inaugral">(IFFCO/Fertilizer Company)</div>
+            <div className="name-text-Inaugral"> Representative  </div>
+            <div className="additional-text-Inaugral"> (Rice Mill association)
+
+</div>
           </div>
         </div>
+        <div className="box-content-Inaugral">
+          <div className="avatar-Inaugral">
+          <Avatar src={pp} alt="Avatar"  style={{ width: '70px', height: '70px' }} /> 
+          </div>
+          <div className="text-container-Inaugral">
+            <div className="name-text-Inaugral"> Representative  </div>
+            <div className="additional-text-Inaugral"> (Commodity trading organisation- Reliance/Origo/LDC/ ITC/NCDEX) </div>
+          </div>
+        </div>  
       </div>
       <div className="box-Inaugral">
         <div className="box-header-Inaugral">
           <div className="time-icon-Inaugral">
             <FiClock />
-            <span>12:50 PM  – 12:55 PM</span>
+            <span> 12:40 PM – 12:55 PM </span>
           </div>
           <div className="additional-time-text-Inaugral">Question / Answer   </div>
         </div>
@@ -108,7 +114,7 @@ In this session, successful financial models will be discussed, with a focus on 
         <div className="box-header-Inaugral">
           <div className="time-icon-Inaugral">
             <FiClock />
-            <span>12:55 PM – 13:00 PM</span>
+            <span> 12:55 PM – 01:00 PM </span>
           </div>
           <div className="additional-time-text-Inaugral"> Concluding Remarks    </div>
         </div>
@@ -123,4 +129,4 @@ In this session, successful financial models will be discussed, with a focus on 
   );
 };
 
-export default Tech1;
+export default Tech5;
