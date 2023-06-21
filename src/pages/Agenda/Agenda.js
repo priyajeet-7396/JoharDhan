@@ -37,14 +37,14 @@ objectives mentioned above. These activities may include:"
     <Date
         time="10:30 AM to 04:30 PM"
         heading = "Programme - Day-1"
-        day = "Friday,14th July 2023"
+        day = "Friday,14th July 2023 "
   
       />
     <Schedule/>
     <Date
         time="10:30 AM to 02:30 PM"
         heading = "Programme - Day-2"
-        day = "Thursday, 13 July 2023"
+        day = "Saturday,15th July 2023"
   
       />
     <Schedule2/>
