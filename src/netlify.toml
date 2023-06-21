@@ -1,3 +1,0 @@
-[[plugins]]
-  package = "@netlify/plugin-build"
-  command = "npm install --legacy-peer-deps && npm run build"

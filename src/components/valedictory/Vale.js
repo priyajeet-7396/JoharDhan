@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
+import Avatar from '@mui/material/Avatar';
 import './Vale.css';
 import avatarImage from '../../assets/pp/sunil_pp.jfif'; 
 

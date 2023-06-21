@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiClock } from 'react-icons/fi';
-import { Avatar } from '@material-ui/core';
+import Avatar from '@mui/material/Avatar';
 import './Tech5.css';
  
 import pp from '../../assets/pp/pp.jpg'; 

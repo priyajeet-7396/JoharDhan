@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiClock } from 'react-icons/fi';
-import { Avatar } from '@material-ui/core';
+import Avatar from '@mui/material/Avatar';
 import './Inaugral.css';
 import avatarImage from '../../assets/pp/sunil_pp.jfif'; 
 import Lamp from '../../assets/pp/lamp.jpg'; 
