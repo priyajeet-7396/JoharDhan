@@ -2,7 +2,7 @@ import React from 'react';
 import { FiClock } from 'react-icons/fi';
 import Avatar from '@mui/material/Avatar';
 import './Recap.css';
-import avatarImage from '../../assets/pp/alok_pp.jfif'; 
+import avatarImage from '../../assets/pp/alok_pp.jpeg'; 
 
 
 const Recap = () => {
