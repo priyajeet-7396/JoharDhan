@@ -6,7 +6,7 @@ import Outcome from './pages/Outcome/Outcome';
 import Participants from './pages/Participants/Participants';
 import Speakers from './pages/Speakers/Speakers';
 import Footer from './components/Footer/Footer';
-
+import Deligate from './pages/Deligate/Deligate'
 const App = () => {
   return (
     <Router>
@@ -17,6 +17,8 @@ const App = () => {
         <Route path="/outcome" element={<Outcome />} />
         <Route path="/participants" element={<Participants />} />
         <Route path="/speakers" element={<Speakers />} />
+        <Route path="/deligate" element={<Deligate/>} />
+        
       </Routes>
       <Footer/>
     </Router>
