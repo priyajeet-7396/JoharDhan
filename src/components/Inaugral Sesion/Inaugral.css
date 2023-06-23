@@ -60,4 +60,34 @@
     margin-left: 10px;
   }
   
+  @media only screen and (max-width: 768px) {
+    .box-container-Inaugral {
+      display: block;
+    }
+  
+    .box-Inaugral {
+      width: 70%;
+      margin-right: 80px;
+    }
+  
+    .box-content-Inaugral {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .avatar-Inaugral {
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  
+    .text-container-Inaugral {
+      padding-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .additional-time-text-Inaugral {
+      margin-left: 0;
+    }
+  }
   

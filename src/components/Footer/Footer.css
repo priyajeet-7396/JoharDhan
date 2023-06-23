@@ -31,9 +31,6 @@
   .footer-middle {
     flex: 1;
     margin-right: 100px;
-
-
-
   }
   
   .name {
@@ -54,5 +51,26 @@
   
   .icon:hover {
     color: orange;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-middle {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0;
+    }
+    .name {
+      font-size: 15px;
+      color: #ffffff;
+      margin-right: 50px;
+
+    }
+    .icon {
+      margin: 2px;
+    }
+    .image-container {
+      margin: 0;
+    }
   }
   

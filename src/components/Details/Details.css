@@ -49,3 +49,16 @@
 .time-icon{
     color: orange;
 }
+
+
+@media (max-width: 768px) {
+  .box-tea, .box-lunch {
+    width: 93.5%;
+    margin-left: 10px; 
+    height: 70px;
+  }
+  
+  .icon-tea, .icon-lunch {
+    margin-left: 10px;
+  }
+}

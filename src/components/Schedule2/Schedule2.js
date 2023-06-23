@@ -19,6 +19,10 @@ const Accordion = styled((props) => (
   '&:before': {
     display: 'none',
   },
+      // Responsive styles for mobile
+      '@media (max-width: 600px)': {
+        margin: '15px 10px', // Adjust margin for mobile devices
+      },
 }));
 
 const AccordionSummary = styled((props) => (
@@ -43,11 +47,22 @@ const AccordionSummary = styled((props) => (
     fontWeight: 'bold', // Optional: add bold font weight
     color: 'green', // Set the text color to green
   },
+      // Responsive styles for mobile
+      '@media (max-width: 600px)': {
+        '& .MuiTypography-root': {
+          fontSize: '1.5rem', // Adjust font size for mobile devices
+        },
+      },
 }));
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(5),
   borderTop: '1px solid rgba(0, 0, 0, .125)',
+      // Responsive styles for mobile
+      '@media (max-width: 600px)': {
+        padding: theme.spacing(2), // Adjust padding for mobile devices
+        borderTop: 'none', // Remove top border for mobile devices
+      },
 
 }));
 

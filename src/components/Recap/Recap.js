@@ -9,7 +9,7 @@ const Recap = () => {
   return (
     <div className="box-container-Inaugral">
      
-      <div className="box-Inaugral">
+      <div className="box-Recap">
         <div className="box-header-Inaugral">
           <div className="time-icon-Inaugral">
             <FiClock />
