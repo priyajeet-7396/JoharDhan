@@ -63,3 +63,32 @@
 
   }
   
+
+  @media screen and (max-width: 768px) {
+  .background-container {
+    margin-top: 30px;
+  }
+
+  .background-title:hover::after {
+
+    width: 300px;
+  }
+  .background-title {
+    font-size: 40px;
+  }
+
+  .background-title:hover {
+    font-size: 45px;
+  }
+
+  .background-paragraph {
+    font-size: smaller;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .box {
+    max-width: 80%;
+     border-radius: 30px;
+  }
+}

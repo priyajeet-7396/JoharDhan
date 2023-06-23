@@ -1,0 +1,47 @@
+.container-form {
+    margin: 150px auto 0;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  
+  .textcenter {
+    text-align: center;
+  }
+  
+  .form-control-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control-card input,
+  .form-control-card textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .form-control-card input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-control-card input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-control-card input[type="text"],
+  .form-control-card input[type="email"],
+  .form-control-card input[type="number"],
+  .form-control-card textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid green; /* Green border */
+  }
+  
+  .form-control-card input[type="text"]::placeholder,
+  .form-control-card input[type="email"]::placeholder,
+  .form-control-card input[type="number"]::placeholder,
+  .form-control-card textarea::placeholder {
+    color: orange; /* Orange placeholder text */
+  }

@@ -58,3 +58,41 @@
 .green-box:hover .list li .icon {
   color: orange;
 }
+
+
+@media screen and (max-width: 768px) {
+  .green-box {
+    width: 90%;
+  }
+  
+  .title {
+    font-size: 40px;
+  }
+  
+  .paragraph,
+  .list {
+    font-size: 18px;
+  }
+  
+  .list li {
+    flex-wrap: wrap;
+  }
+  
+  .list li .icon {
+    margin-right: 5px;
+  }
+
+  .green-box .list li .icon {
+    color: orange;
+  }
+  
+  .green-box .title,
+.green-box .paragraph,
+.green-box .list li {
+  color: white;
+}
+.green-box {
+  background-color: green;
+  border-radius: 20px;
+}
+}

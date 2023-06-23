@@ -60,3 +60,44 @@
   .green-bordered-container:hover .icon-text {
     color: orange;
   }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  .green-bordered-container {
+    /* Changes for mobile display */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+
+  .info-section {
+    /* Change to display details in a column */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-text {
+    /* Change to align details to the top */
+    justify-content: flex-start;
+  }
+
+  .icon-text span {
+    /* Add margin to separate the details */
+    margin-top: 10px;
+  }
+  .green-bordered-container .icon-text {
+    color: orange;
+  }
+  .green-bordered-container {
+    background-color: green;
+    color: white;
+  }
+  .green-bordered-container .component-heading,
+  .green-bordered-container .icon-text span {
+    color: white;
+  }
+
+}
