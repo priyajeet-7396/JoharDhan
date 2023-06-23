@@ -14,7 +14,7 @@
 
 import React, { useState, useEffect } from 'react';
 import desktopImage from '../../assets/Banner/Banner.jpg';
-import mobileImage from '../../assets/Banner/Banner_M.png';
+import mobileImage from '../../assets/Banner/Banner_M.jpg';
 import './banner.css';
 
 const Banner = () => {
