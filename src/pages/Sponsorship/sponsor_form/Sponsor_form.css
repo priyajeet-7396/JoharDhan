@@ -1,0 +1,12 @@
+.form-control-card p {
+    
+    color: green; /* Set the radio text color to green */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .form-control-card label {
+    align-items: center;
+    margin-bottom: 5px;
+    color: green;
+  }
+  

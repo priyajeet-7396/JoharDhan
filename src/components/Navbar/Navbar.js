@@ -16,7 +16,7 @@ import {Link} from 'react-router-dom';
 import './Navbar.css';
 
 
-const pages = ['Agenda', 'Delegates'];
+const pages = ['Agenda', 'Delegates', 'SPONSORSHIP'];
 // , 'Outcome', 'Participants', 'Speakers' add this when pages are ready 
 
 
