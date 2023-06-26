@@ -14,11 +14,11 @@ const App = () => {
       <ResponsiveAppBar />
       <Routes>
         <Route path="/" element={<Agenda />} />
-        <Route path="/agenda" element={<Agenda />} />
+        <Route path="/AGENDA" element={<Agenda />} />
         <Route path="/SPONSORSHIP" element={<Sponsorship/>} />
         <Route path="/ABOUT ORGANIZER" element={<About/>} />
         <Route path="/speakers" element={<Speakers />} />
-        <Route path="/delegates" element={<Deligate/>} />
+        <Route path="/DELEGATES" element={<Deligate/>} />
         
       </Routes>
       <Footer/>
