@@ -63,7 +63,7 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs
-        .sendForm('service_2ck7pda', 'template_ezi0bfs', form.current, 'Qy-JEXbd8P7elG-kx')
+        .sendForm('service_zrwq07r', 'template_xof1tq5', form.current, 'oM7kFWkMvR7cHllcS')
         .then((result) => {
           console.log(result.text);
           setShowPopup(true);
