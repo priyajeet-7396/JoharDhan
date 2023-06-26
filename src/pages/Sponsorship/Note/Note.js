@@ -14,7 +14,7 @@ const Note = () => {
       }}
     >
       <p style={{ textAlign: 'center' }}>
-        Note for any enquiry, give us a call on this number: <strong> 9000458514,9308446585</strong> all payments are negotiable
+        Note for any enquiry, give us a call on this number: <strong> 9000458514,9308446585 .</strong> We are open to negotiate & customized package that caters specifically to your marketing objectives and budget.
       </p>
     </div>
   );
