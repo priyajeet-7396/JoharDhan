@@ -74,7 +74,7 @@ export default function CustomizedAccordions() {
 
         <AccordionDetails>
           <Typography>
-          The participants eagerly lined up during the allocated time of 10:30 to 11:00 hours for the seamless registration process to begin.
+          The participants are kindly requested to line up during the registration process.
           </Typography>
         </AccordionDetails>
       </Accordion>

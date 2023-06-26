@@ -11,6 +11,10 @@ import Timeline from './Timeline/Timeline';
 import Date from '../../components/Date/Date';
 import Schedule from '../../components/Schedule/Schedule'
 import Schedule2 from '../../components/Schedule2/Schedule2'
+import Enquiry from './Enquiry/Enquiry'
+import DownloadButton from '../../components/Downloadpdf/Download'
+import Objective from './Objective/Objective'
+import Workshop from './workshop/Workshop'
 
 
 const Agenda = () => {
@@ -25,14 +29,17 @@ const Agenda = () => {
   return (
     <>
     <Banner/>
+    <DownloadButton/>
     <Background/>
     <Johardhan/>
+    <Objective/>
     <KeyActivity
        title="KEY ACTIVITIES"
         paragraph="The “JOHAR DHAN - 2023-2023” will encompass a range of activities designed to achieve the
 objectives mentioned above. These activities may include:"
         items={items}
     />
+    <Workshop/>
     <Timeline/>
     <Date
         time="10:30 AM to 04:30 PM"
@@ -48,6 +55,7 @@ objectives mentioned above. These activities may include:"
   
       />
     <Schedule2/>
+    <Enquiry/>
   
     </>
   )
