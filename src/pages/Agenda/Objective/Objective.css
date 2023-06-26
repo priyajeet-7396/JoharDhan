@@ -1,9 +1,5 @@
 /* background.css */
 
-.Objective {
-  
-    margin-top: 50px;
-  }
   
   .obj-title {
     font-size: 60px;
@@ -11,7 +7,6 @@
     position: relative;
     transition: font-size 0.3s;
     color: green;
-    
   }
   
   .obj-title:hover {
@@ -68,7 +63,7 @@
   
   @media screen and (max-width: 768px) {
     .Objective {
-      margin-top: 30px;
+      margin-top: 5px;
     }
   
     .obj-title {

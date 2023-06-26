@@ -1,12 +1,41 @@
 .container-form {
-    margin: 150px auto 0;
-    max-width: 600px;
+    margin: 100px auto 0;
+    max-width: 800px;
     padding: 20px;
   }
   
+  /* .form-bg {
+    background-color: green;
+    background-image: linear-gradient(to right, #2a9919, #014600);
+    border-radius: 20px;
+    padding: 50px; 
+  } */
   
+  
+  .form-control-card {
+    position: relative; /* Add relative positioning to the form control card */
+  }
+  
+
+  .icon-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+ 
+  
+  .icon-right {
+    padding-left: 20px; /* Adjust the right position of the right icon */
+  }
+  
+
   .textcenter {
-    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    transition: font-size 0.3s;
+    color: green;
   }
   
   .form-control-card {
@@ -22,7 +51,7 @@
   
   .form-control-card input[type="submit"] {
     background-color: #4caf50;
-    color: white;
+    color: rgb(255, 208, 81);
     cursor: pointer;
   }
   
@@ -35,13 +64,87 @@
   .form-control-card input[type="number"],
   .form-control-card textarea {
     margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid green; /* Green border */
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255); /* Green border */
+    border-radius: 10px; /* Add round borders */
+    background-color: rgba(255, 187, 0, 0.348); /* Orange background color */
+    color: rgb(4, 67, 0); /* Set text color to white */
+    text-align: center; /* Center-align the typed information */
+    font-size: 15px; /* Increase the font size for typed input */
+    
+    
   }
+  
+  
   
   .form-control-card input[type="text"]::placeholder,
   .form-control-card input[type="email"]::placeholder,
   .form-control-card input[type="number"]::placeholder,
   .form-control-card textarea::placeholder {
-    color: orange; /* Orange placeholder text */
+    color: rgb(140, 140, 140); /* Orange placeholder text */
+    text-align: center; /* Center-align the placeholder text */
+  }
+  
+  .btn {
+    border-radius: 50px;
+    background-color: rgb(0, 81, 0);
+    color: rgb(255, 195, 84);
+    height: 60px;
+    width: 150px;
+    margin: 0 auto; /* Center-align the button */
+    display: block; /* Ensure the button occupies full width */
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .popup h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .popup p {
+    margin-bottom: 20px;
+  }
+  
+  .ok-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ok-btn:hover {
+    background-color: #ff9800;
+  }
+  
+  
+  
+
+  @media (max-width: 768px) {
+    .textcenter {
+      font-size: 30px; /* Adjust the font size for mobile devices */
+    }
+    .icon-right {
+      padding-left: 10px; /* Adjust the right position of the right icon */
+    }
   }
